@@ -6,20 +6,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Coding Quiz</title>
+        <link rel="reset" href="./assets/css/normalize.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
     <body>
+
     <header>
 
+        <a href="./highscores.html">High Scores</a>
+        <h2 id="score">0</h2>
+        <h2>Time Left: <span id="time">30</span></h2>
 
     </header>
 
-    <div>
-        <h1>Coding Quiz Challange</h1>
-        <p>
-            "try to get all of the questions right or something..."
-        </p>
+    <div id="prompt-box">
+
+        <h2>Coding Quiz Challange</h2>
+
+        <h2 id="question">
+            "Welcome to the Quiz!"
+        </h2>
+
+        <button id="start">Start</button>
+
+        <form id="iEntry" style="display: none">
+            <label for="initials">Initials:</label><br>
+            <input type="text" id="initials" name="initials"><br>
+            <input type="submit" value="Save Score" id="end">
+          </form> 
+
+        <ul id="answers">
+        </ul>
+
+        <h2 id="result"></h2>
+
     </div>
         <script src="./assets/js/script.js"></script>
     </body>
