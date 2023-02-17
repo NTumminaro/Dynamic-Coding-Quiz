@@ -11,4 +11,5 @@ This is a timed, high score-tracking coding quiz to test your knowledge on thing
 
 ## Screenshots
 
-![Screenshot](/assets/images/images/screenshot.png)
+![Screenshot](/assets/images/screenshot1.png)
+![Screenshot](/assets/images/screenshot2.png)
